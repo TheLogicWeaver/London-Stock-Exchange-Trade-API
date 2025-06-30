@@ -8,7 +8,7 @@ using NSubstitute;
 namespace LseTradeApi.Tests;
 
 [TestClass]
-public sealed class Test1
+public sealed class TradeServiceTests
 {
     private ITradeRepository _repository;
     private TradeService _sut;
